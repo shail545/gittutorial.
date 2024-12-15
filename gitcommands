@@ -1,0 +1,31 @@
+// git init
+The git init command creates a new Git repository 
+
+// git config
+
+// Set username and email
+$ git config --global user.name <username>
+$ git config --global user.email <mailaddress>
+
+// Color displayed output
+$ git config --global color.ui auto          //this command is used for git add or git status dekhte hh tb red or green color aata he na wo iski wjh se   aata h 
+
+
+// Set alias for command
+
+$ git config --global alias.<aliasname> <commandname>   // is ka use short name k liye krte h 
+
+// git commit 
+
+git commit
+git commit -a
+git commit -m "commit message"
+git commit -am "commit message"   // update  and commit the message 
+git commit --amend     // This opens the default text editor (e.g., vim or nano) where you can modify the commit message.
+
+// git log     isme kb changes kiye gye ky changes kiye gye wo show krta h 
+git log --oneline
+git log --graph
+git log --oneline --graph
+git log -n
+git log --pretty=format:"%h - %an, %ar : %s"
